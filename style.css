@@ -113,8 +113,25 @@ nav {
     width: 100%;
     position: absolute;
     left: 0;
-    top: 100px
+    top: -100px;
+    animation: clouds 5s linear infinite;
 }
+@keyframes clouds {
+    0% {
+        top: -100px;
+    }
+    20% {
+        top: 100px;
+    }
+    80% {
+        top: 100px;
+    }
+    100% {
+        top: -100px;
+    }
+}
+/* above two rules dictate cloud animation */
+
 #airplane {
     width: 200px;
     position:absolute;
