@@ -159,10 +159,26 @@ nav {
     width: 700px;
     /* above line allows all 3 balloons to line up in the same horizontal line */
     position: absolute;
-    bottom: 100px;
+    bottom: -450px;
     left: 50%;
     transform: translateX(-50%);
+    animation: hotairballoon 5s linear infinite;
 }
+@keyframes hotairballoon {
+    0% {
+        bottom: -450px;
+    }
+    20% {
+        bottom: 100px;
+    }
+    80% {
+        bottom: 100px;
+    }
+    100% {
+        bottom: -450px;
+    }
+}
+
 .balloon1 {
     width: 150px;
     opacity: 0.4;
