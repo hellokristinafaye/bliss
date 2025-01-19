@@ -9,3 +9,23 @@
     overflow: hidden;
     position: relative;
 }
+.navbar {
+    width: 100%;
+    border-bottom: 1px solid #b7e7f6;
+    /* the lines above create the little line under the navbar */
+}
+nav {
+    width: 80%;
+    margin: 20px auto 0;
+    display: flex;
+    text-align: center;
+    position: sticky;
+    z-index: 2;
+    /* the lines above style the nav bar, centers text, widened/set margins, etc. */
+}
+.logo {
+    flex-basis: 15%;
+}
+.logo img { 
+    width: 100px;
+}
