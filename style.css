@@ -143,3 +143,12 @@ nav {
     opacity: 0.5;
 }
 /* the above three rules style the balloons.  I think it's the bigger it is the closer it is, not sure the opacity rules??  */
+#myImg {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: tranlateX(-50%);
+    cursor: pointer;
+}
