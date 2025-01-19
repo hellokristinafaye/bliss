@@ -124,10 +124,10 @@ nav {
         top: 100px;
     }
     80% {
-        top: 100px;
+        top: 700px;
     }
     100% {
-        top: -100px;
+        top: -100%;
     }
 }
 /* above two rules dictate cloud animation */
@@ -136,8 +136,23 @@ nav {
     width: 200px;
     position:absolute;
     top: 180px;
-    left: 250px;
+    left: -250px;
     z-index: 2;
+    animation: fly 5s linear infinite;
+}
+@keyframes fly{
+    0% {
+        left: -250px;
+    }
+    20% {
+        left: 250px;
+    }
+    80% {
+        left: 80%;
+    }
+    100% {
+        left: 100%;
+    }
 }
 #hotairballoon {
     height: 400px;
