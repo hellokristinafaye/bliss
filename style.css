@@ -105,3 +105,7 @@ nav {
 ::placeholder {
     color: #b7e7f6;
 }
+.search-box img {
+    width: 20px;
+    margin: 5px 10px;
+}
