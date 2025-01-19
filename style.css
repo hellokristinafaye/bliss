@@ -122,3 +122,24 @@ nav {
     left: 250px;
     z-index: 2;
 }
+#hotairballoon {
+    height: 400px;
+    width: 700px;
+    /* above line allows all 3 balloons to line up in the same horizontal line */
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.balloon1 {
+    width: 150px;
+    opacity: 0.4;
+}
+.balloon2 {
+    width: 350px;
+}
+.balloon3 {
+    width: 180px;
+    opacity: 0.5;
+}
+/* the above three rules style the balloons.  I think it's the bigger it is the closer it is, not sure the opacity rules??  */
