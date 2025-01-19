@@ -124,10 +124,10 @@ nav {
         top: 100px;
     }
     80% {
-        top: 700px;
+        top: 100px;
     }
     100% {
-        top: -100%;
+        top: -100px;
     }
 }
 /* above two rules dictate cloud animation */
