@@ -85,3 +85,23 @@ nav {
     cursor:pointer;
     /* sizing and spacing for icons, plus hover behavior */
 }
+.search-box {
+    margin-top: 20px;
+    border: 1px solid #b7e7f6;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+}
+.search-box input {
+    width: 100%;
+    padding: 7px 15px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: #b7e7f6;
+}
+::placeholder {
+    color: #b7e7f6;
+}
