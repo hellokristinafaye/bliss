@@ -18,7 +18,8 @@ nav {
     width: 80%;
     margin: 20px auto 0;
     display: flex;
-    text-align: center;
+    align-items: center;
+    /* the above line centers the elements vertically within the navbar */
     position: sticky;
     z-index: 2;
     /* the lines above style the nav bar, centers text, widened/set margins, etc. */
@@ -60,4 +61,27 @@ nav {
 /* the above two rules dictate that a white underline appears when the menu links are hovered over */
 .active::after {
     background: #fff !important;
+}
+.menu-icon {
+    flex-basis: 15%;
+}
+.menu-icon img {
+    width: 35px;
+    float: right;
+}
+.content {
+    width: 300px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 2;
+    /* above lines position social media icons */
+}
+.social-icons img{
+    width: 18px;
+    margin: 0 10px;
+    cursor:pointer;
+    /* sizing and spacing for icons, plus hover behavior */
 }
