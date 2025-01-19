@@ -58,3 +58,6 @@ nav {
     background: #fff;
 }
 /* the above two rules dictate that a white underline appears when the menu links are hovered over */
+.active::after {
+    background: #fff !important;
+}
